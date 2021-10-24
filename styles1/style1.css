@@ -1,0 +1,64 @@
+html {
+    box-sizing: content-box;
+    width: fit-content;
+    border: solid black 30px;
+    padding: 50px;
+}
+#grad {
+    background-image: linear-gradient(white,grey);
+}
+.header-title {
+    text-align: center;
+    margin: 0;
+    font-size: 600%;
+    text-transform: uppercase;
+    color: black;
+    font-family: Bodoni MT;
+}
+.subtitle {
+    text-align: center;
+    font-size: 100%;
+    text-transform: uppercase;
+    color: black;
+    font-family: Bodoni MT;
+}
+h2 {
+    font-size: 200%;
+    font-family: Bodoni MT;
+    color:black;
+}
+h3 {
+    font-size: 90%;
+    font-family: Bodoni MT;
+    font-style: bold;
+}
+p {
+    width: 55%;
+    font-family: Bodoni MT;
+    font-size: 120%;
+}
+.column {
+    float:left;
+    padding: 10px;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.text1 {
+    text-align: center;
+    margin: 10px;
+    width: 100px;
+}
+
+.list {
+    font-family: Bodoni MT;
+    font-size: 120%;
+}
+.image{
+    float: right;
+    width: 65%;
+    margin: 10px;
+    padding: 10px;
+}
